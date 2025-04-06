@@ -1,0 +1,139 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Full header section */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* semi-transparent overlay */
+}
+
+/* Logo styling */
+nav img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Nav links */
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+    color: #fcb6b6;
+}
+
+.nav-links ul li::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #fcb6b6;
+    transition: width 0.4s ease;
+    margin-top: 4px;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+/* Hero text box */
+.text-box {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.text-box h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.text-box h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0 30px;
+}
+
+/* Team credits */
+.credits p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Button styling */
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 30px;
+    font-size: 14px;
+    margin-top: 30px;
+    transition: 0.4s ease;
+}
+
+.hero-btn:hover {
+    background-color: #8d2720;
+    border-color: #8d2720;
+}
+
+/* Responsive nav layout */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .text-box h1 {
+        font-size: 40px;
+    }
+
+    .text-box h2 {
+        font-size: 28px;
+    }
+
+    .hero-btn {
+        padding: 10px 24px;
+        font-size: 13px;
+    }
+}

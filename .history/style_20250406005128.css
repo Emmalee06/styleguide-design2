@@ -1,0 +1,113 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+/* Navbar unified layout */
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* semi-transparent for a sleek look */
+    backdrop-filter: blur(10px);
+    /* softens background if needed */
+    position: relative;
+    z-index: 2;
+}
+
+/* Logo styling */
+nav.navbar .logo img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Nav links styling */
+.nav-links {
+    display: flex;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links ul li a:hover {
+    color: #fcb6b6;
+}
+
+.nav-links ul li::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #fcb6b6;
+    transition: width 0.4s ease;
+    margin-top: 4px;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    width: 80%;
+    color: #d3dae0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 60px;
+}
+
+.text-box h2 {
+    font-size: 40px;
+}
+
+.text-box .credits p {
+    text-align: left;
+    margin: 10px 0 40 px;
+    font-size: 20px;
+    color: #d3dae0;
+    line-height: 1.7;
+
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #d3dae0;
+    border: 1px solid #d3dae0;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #8d2720;
+    background: #8d2720;
+    transition: 1s;
+}
