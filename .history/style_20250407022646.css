@@ -408,7 +408,7 @@ nav a img {
 /* Paragraph section */
 .content-text {
     flex: 1 1 45%;
-    font-size: 14px;
+    font-size: 0.95rem;
     line-height: 1.6;
 }
 

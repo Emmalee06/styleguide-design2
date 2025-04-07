@@ -326,7 +326,7 @@ nav a img {
 .font-header {
     background-color: #651c36d6;
     color: white;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     padding: 20px;
@@ -384,7 +384,7 @@ nav a img {
 .section-header {
     background-color: #7a4755;
     color: #fff;
-    font-size: 28px;
+    font-size: 1.8rem;
     padding: 20px;
     margin-bottom: 30px;
     text-align: center;
@@ -408,7 +408,7 @@ nav a img {
 /* Paragraph section */
 .content-text {
     flex: 1 1 45%;
-    font-size: 14px;
+    font-size: 0.95rem;
     line-height: 1.6;
 }
 
@@ -423,7 +423,7 @@ nav a img {
 }
 
 .content-image img {
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
@@ -431,8 +431,5 @@ nav a img {
 
 /* Full-width image */
 .content-image.full-width img {
-    max-width: 600px;
     width: 100%;
-    display: block;
-    margin: 0 auto;
 }
