@@ -336,18 +336,19 @@ nav a img {
 .font-content {
     display: flex;
     justify-content: space-between;
-    padding: 60px;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 60px auto;
     gap: 30px;
     background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url(images/background.png);
-    background-size: auto 80%;
+    background-size: auto 50%;
 }
 
 /* Text Block */
 .font-content p {
-    width: 45%;
-    font-size: 14px;
+    width: 50%;
+    font-size: 16px;
     line-height: 1.6;
-    color: #f5ecec;
 }
 
 /* Right-side definition image */

@@ -337,6 +337,7 @@ nav a img {
     display: flex;
     justify-content: space-between;
     padding: 60px;
+    margin-left: 30px 60px 30px 60px;
     gap: 30px;
     background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url(images/background.png);
     background-size: auto 80%;

@@ -330,6 +330,7 @@ nav a img {
     font-weight: bold;
     text-align: center;
     padding: 20px;
+    text-shadow: 1px 1px 4px rgba(215, 212, 212, 0.4);
 }
 
 /* Font Content (Text + Image) */
