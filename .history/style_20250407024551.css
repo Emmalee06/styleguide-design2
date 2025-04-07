@@ -457,7 +457,7 @@ nav a img {
     /* Change this to whatever color you want */
     text-decoration: none;
     font-weight: 500;
-
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .references a:hover {

@@ -451,16 +451,3 @@ nav a img {
     color: #d3dae0;
     margin: 6px 0;
 }
-
-.references a {
-    color: #fcb6b6;
-    /* Change this to whatever color you want */
-    text-decoration: none;
-    font-weight: 500;
-
-}
-
-.references a:hover {
-    color: #e5d6f4;
-    text-decoration: underline;
-}
