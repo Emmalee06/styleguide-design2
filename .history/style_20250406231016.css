@@ -226,11 +226,11 @@ nav a img {
 
 /* --- Headings --- */
 .colours h1 {
-    font-size: 23px;
+    font-size: 2rem;
     margin-top: 50px;
     margin-bottom: 15px;
     color: #3E0B0B;
-    border-bottom: 2px solid #89576691;
+    border-bottom: 2px solid #EAD08B;
     padding-bottom: 6px;
 }
 
@@ -251,15 +251,7 @@ nav a img {
 
 /* --- Image Blocks --- */
 .image-row img {
-    width: 800px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease;
-}
-
-.image-row-small img {
-    width: 100px;
+    width: 240px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
@@ -267,10 +259,6 @@ nav a img {
 }
 
 .image-row img:hover {
-    transform: scale(1.03);
-}
-
-.image-row-small img:hover {
     transform: scale(1.03);
 }
 
@@ -288,27 +276,22 @@ nav a img {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
 }
 
 .access-card h2 {
-    font-size: 17px;
+    font-size: 1.25rem;
     color: #9b5861;
     margin-bottom: 10px;
 }
 
 .access-card p {
-    font-size: 12px;
+    font-size: 0.95rem;
     line-height: 1.5;
     margin-bottom: 15px;
 }
 
 .access-card img {
-    width: 70%;
+    width: 100%;
     border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.263);
-}
-
-.access-card:hover {
-    transform: scale(1.03);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
